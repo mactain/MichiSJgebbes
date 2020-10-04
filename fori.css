@@ -1,0 +1,147 @@
+
+@media only screen and (max-width:1023px) {
+  /* For mobile phones: */
+  .menu, .main, .right{
+    width:100%;
+  }
+}
+
+@media only screen and (min-width:1024px) {
+  /* For mobile phones: */
+  .menu, .main, .right{
+    width:100%;
+  }
+    div.show{
+        display: none
+    }
+    }
+    
+    
+* {
+  box-sizing: border-box;
+}
+.menu {
+  float:left;
+  width:20%;
+  text-align:center;
+}
+.menu a {
+  background-color:#e5e5e5;
+  padding:8px;
+  margin-top:7px;
+  display:block;
+  width:100%;
+  color:black;
+}
+.main {
+  float:left;
+  width:60%;
+  padding: 20px;
+}
+.right {
+  background-color:#ffffff;
+  float:center;
+  width:100%;
+  padding:1vw;
+  text-align:center;
+  display: block;
+}
+.gosia{
+    display: block;
+    float: inherit;
+    width: 56vw;
+    margin: auto;
+    margin-bottom: 5vw;
+    margin-top: 5vw;
+    max-width: 75%
+    }
+.clear {
+    clear: both;
+    }
+.body {
+    background-image: url(cdeddf493ffc818ea19905fdeb07488b.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    float: center;
+    overflow-x: hidden;
+    display: block;
+    width: 100vw;
+    height: 100vh;
+    min-height: 100vh;
+    min-width: 100vw;
+    background-attachment: fixed;
+    background-position: bottom center;
+    }
+.vlh {
+    display: block;
+    float: center;
+    width: 95%;
+    padding-bottom: 2vw;
+    padding-left: 4.5vw
+    }
+.top {
+    background-image: linear-gradient(-15deg, #0096FF, #FF2F92);
+    display: block;
+    background-color:#ffffff;
+    padding:3vw;
+    text-align:center;
+    margin-top: 3vw;
+    margin-left: 3vw;
+    margin-right: 6vw;
+    overflow: auto;
+    padding-bottom: 3vw;
+    margin-bottom: 10vw;
+    width: 91vw
+    }
+
+.toplog {
+    display: block;
+    background-color:transparent;
+    padding:3vw;
+    padding-top: 1vw;
+    text-align:center;
+    margin-top: 2vw;
+    margin-left: 3vw;
+    margin-right: 6vw;
+    overflow: auto;
+    padding-bottom: 3vw;
+    width: 91vw;
+    margin-bottom: 0vw
+    }
+
+.schrift3 {
+    font-family: Verdana;
+    color:#ffffff;
+    font-size: 8vw;
+    }
+
+.top2 {
+    display: inline;
+    padding:3vw;
+    padding-top: 0vw;
+    text-align:center;
+    margin-top: 0vw;
+    margin-left: 0vw;
+    margin-right: auto;
+    overflow: auto;
+    width: 100vw;
+    margin-bottom: 0vw;
+    }
+
+.tab {
+  width: 100%; /* Full-width */
+  overflow: hidden; /* Overflow due to float */
+  opacity: 1;
+  display: inline;
+  background-color: transparent;
+  height: 10vw;
+  float: left;
+  text-align: center; 
+  width: 30vw;
+  padding: 5vw;
+  padding-bottom: 3vw;
+  transition: all 0.3s ease; 
+  font-size: 30vw;
+  border: none;
+  outline: none;
+}
