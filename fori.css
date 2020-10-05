@@ -49,11 +49,17 @@
 .gosia{
     display: block;
     float: inherit;
-    width: 56vw;
+    width: 90vw;
     margin: auto;
     margin-bottom: 5vw;
     margin-top: 5vw;
-    max-width: 75%
+    max-width: 91%;
+    margin-left: 3vw;
+    border-image-source: linear-gradient(-15deg, #0096FF, #FF2F92);
+    border-width: 3vw;
+    border-style: solid;
+    border-image-slice: 2;
+    opacity: 1;
     }
 .clear {
     clear: both;
@@ -113,6 +119,7 @@
     font-family: Verdana;
     color:#ffffff;
     font-size: 8vw;
+    text-align: center;
     }
 
 .top2 {
@@ -145,3 +152,18 @@
   border: none;
   outline: none;
 }
+
+.schriftt1 {
+    font-family: Verdana;
+    color:#000000;
+    font-size: 5vw;
+    text-align: center;
+    text-underline: none;
+    }
+.schriftt2 {
+    font-family: Verdana;
+    color:white;
+    font-size: 5vw;
+    text-align: center;
+    text-underline: none;
+    }
