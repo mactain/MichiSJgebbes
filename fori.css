@@ -167,3 +167,19 @@
     text-align: center;
     text-underline: none;
     }
+
+.toplog2 {
+    display: block;
+    background-color:transparent;
+    padding:0vw;
+    padding-top: 0vw;
+    text-align:center;
+    margin-top: 2vw;
+    margin-left: 2vw;
+    margin-right: 0vw;
+    overflow: auto;
+    padding-bottom: 0vw;
+    width: 91vw;
+    min-height: 20vw;
+    margin-bottom: 0vw
+    }
