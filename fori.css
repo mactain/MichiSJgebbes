@@ -60,6 +60,7 @@
     border-style: solid;
     border-image-slice: 2;
     opacity: 1;
+    min-width: 91vw;
     }
 .clear {
     clear: both;
